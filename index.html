@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="img">
+      <img src="logo new.png" alt="im" width="350" height="250">
+    </div>
+    <div class="main">
+      <div class="container">
+        <h1>Age Calculator</h1>
+        <label for="dob">Enter your date of birth:</label>
+        <br>
+        <div class="date">
+          <input type="date" id="dob">
+          <br>
+          <button id="btn" onclick="calculateAge()">Calculate Age</button>
+        </div>
+        <p>Your age is: <span id="age"></span></p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <p>Created with ❤ by <a
+            href="https://www.linkedin.com/in/eshan-iqbal-a8678b252/"> Eshan
+            Iqbal</a> co-founder of <a href="#">MinMind</a></p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
